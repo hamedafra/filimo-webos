@@ -1,0 +1,11 @@
+{
+  "packages": [
+    {
+      "id": "filimo.tv.webos",
+      "title": "Filimo",
+      "iconUri": "https://raw.githubusercontent.com/hamedafra/filimo-webos/main/app/largeIcon.png",
+      "manifestUrl": "https://github.com/hamedafra/filimo-webos/releases/latest/download/filimo.tv.webos.manifest.json",
+      "shortDescription": "Unofficial Filimo app for LG webOS TVs, with Persian on-screen keyboard. فیلیمو برای تلویزیون ال جی با کیبورد فارسی."
+    }
+  ]
+}

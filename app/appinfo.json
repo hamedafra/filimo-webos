@@ -1,0 +1,16 @@
+{
+  "id": "filimo.tv.webos",
+  "version": "1.0.1",
+  "vendor": "personal",
+  "type": "web",
+  "main": "index.html",
+  "title": "Filimo",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#000000",
+  "iconColor": "#161616",
+  "disableBackHistoryAPI": true,
+  "vendorExtension": {
+    "allowCrossDomain": true
+  }
+}
