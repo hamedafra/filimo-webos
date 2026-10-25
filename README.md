@@ -15,8 +15,9 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/search-persian-keyboard.jpg" width="440" alt="جستجو با کیبورد فارسی در فیلیمو روی تلویزیون ال جی - Filimo search with Persian keyboard on LG TV">
-  <img src="screenshots/player.jpg" width="440" alt="پخش فیلم در فیلیمو روی تلویزیون ال جی - Filimo player on LG TV">
+  <img src="screenshots/search-persian-keyboard.jpg" alt="جستجو با کیبورد فارسی در فیلیمو روی تلویزیون ال جی - Filimo search with Persian keyboard on LG TV">
+  <br><br>
+  <img src="screenshots/player.jpg" alt="پخش فیلم در فیلیمو روی تلویزیون ال جی - Filimo player on LG TV">
 </p>
 
 ---
