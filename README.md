@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/hamedafra/filimo-webos/releases/latest"><img src="https://img.shields.io/github/v/release/hamedafra/filimo-webos?style=flat-square&label=%D9%86%D8%B3%D8%AE%D9%87%20%7C%20version" alt="Latest release"></a>
-  <a href="https://github.com/hamedafra/filimo-webos/releases"><img src="https://img.shields.io/github/downloads/hamedafra/filimo-webos/total?style=flat-square&label=%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%7C%20downloads" alt="Downloads"></a>
+  <a href="https://github.com/hamedafra/filimo-webos/releases/latest"><img src="https://img.shields.io/github/v/release/hamedafra/filimo-webos?style=flat-square&label=version" alt="Latest release"></a>
+  <a href="https://github.com/hamedafra/filimo-webos/releases"><img src="https://img.shields.io/github/downloads/hamedafra/filimo-webos/total?style=flat-square&label=downloads" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/LG-webOS-A50034?style=flat-square" alt="LG webOS">
 </p>
 
@@ -42,35 +42,14 @@
 
 ### کدام روش نصب برای من است؟
 
-| تلویزیون شما | روش پیشنهادی |
+| تلویزیون شما | روش نصب |
 |---|---|
-| برنامه‌ی **Homebrew Channel** روی تلویزیون نصب است (معمولاً یعنی روت شده) | [روش ۱: نصب از داخل تلویزیون](#روش-۱-نصب-از-داخل-تلویزیون-با-homebrew-channel) |
-| تلویزیون روت نشده و Homebrew Channel ندارد | [روش ۲: نصب با کامپیوتر (حالت توسعه‌دهنده)](#روش-۲-نصب-با-کامپیوتر-برای-تلویزیون‌های-روت‌نشده) |
+| روت نشده (تلویزیون معمولی) | [روش ۱: نصب با کامپیوتر](#روش-۱-نصب-با-کامپیوتر-تلویزیون-روت-نشده) |
+| روت شده و برنامه‌ی **Homebrew Channel** روی آن نصب است | [روش ۲: نصب از داخل تلویزیون](#روش-۲-نصب-از-داخل-تلویزیون-با-homebrew-channel-تلویزیون-روت-شده) |
 
 ---
 
-### روش ۱: نصب از داخل تلویزیون با Homebrew Channel
-
-این ساده‌ترین روش است و کامپیوتر لازم ندارد. نسخه‌های جدید هم از همین‌جا نصب می‌شوند.
-
-1. برنامه‌ی **Homebrew Channel** را روی تلویزیون باز کنید.
-2. بالای صفحه، روی آیکون **چرخ‌دنده (Settings)** بروید.
-3. پایین صفحه گزینه‌ی **Add repository** را بزنید.
-4. این آدرس را با ریموت تایپ کنید و **Add repository** را بزنید:
-
-   ```
-   https://hamedafra.github.io/filimo-webos/apps.json
-   ```
-
-5. به صفحه‌ی اصلی Homebrew Channel برگردید. **Filimo** در فهرست برنامه‌ها اضافه شده است.
-6. روی **Filimo** بروید و **Install** را بزنید.
-7. تمام! آیکون فیلیمو در فهرست برنامه‌های تلویزیون ظاهر می‌شود.
-
-> 💡 وقتی نسخه‌ی جدیدی منتشر شود، در Homebrew Channel روی Filimo بروید و دوباره **Install** را بزنید.
-
----
-
-### روش ۲: نصب با کامپیوتر (برای تلویزیون‌های روت‌نشده)
+### روش ۱: نصب با کامپیوتر (تلویزیون روت نشده)
 
 در این روش تلویزیون را موقتاً در «حالت توسعه‌دهنده» (Developer Mode) قرار می‌دهید. این قابلیت رسمی خود ال جی است و به تلویزیون آسیبی نمی‌زند. لازم است تلویزیون و کامپیوتر به **یک مودم/وای‌فای** وصل باشند.
 
@@ -110,6 +89,29 @@
 
 ---
 
+### روش ۲: نصب از داخل تلویزیون با Homebrew Channel (تلویزیون روت شده)
+
+اگر تلویزیونتان روت شده و برنامه‌ی **Homebrew Channel** روی آن نصب است، می‌توانید فیلیمو را بدون کامپیوتر نصب کنید. نسخه‌های جدید هم از همین‌جا نصب می‌شوند.
+
+> ℹ️ Homebrew Channel به‌طور پیش‌فرض روی تلویزیون‌های ال جی نیست؛ موقع روت کردن تلویزیون نصب می‌شود. اگر آن را در فهرست برنامه‌های تلویزیون نمی‌بینید، از روش ۱ استفاده کنید.
+
+1. برنامه‌ی **Homebrew Channel** را روی تلویزیون باز کنید.
+2. بالای صفحه، روی آیکون **چرخ‌دنده (Settings)** بروید.
+3. پایین صفحه گزینه‌ی **Add repository** را بزنید.
+4. این آدرس را با ریموت تایپ کنید و **Add repository** را بزنید:
+
+   ```
+   https://hamedafra.github.io/filimo-webos/apps.json
+   ```
+
+5. به صفحه‌ی اصلی Homebrew Channel برگردید. **Filimo** در فهرست برنامه‌ها اضافه شده است.
+6. روی **Filimo** بروید و **Install** را بزنید.
+7. تمام! آیکون فیلیمو در فهرست برنامه‌های تلویزیون ظاهر می‌شود.
+
+> 💡 وقتی نسخه‌ی جدیدی منتشر شود، در Homebrew Channel روی Filimo بروید و دوباره **Install** را بزنید.
+
+---
+
 ### اولین استفاده: ورود به حساب فیلیمو
 
 1. برنامه‌ی **Filimo** را روی تلویزیون باز کنید و گزینه‌ی **ورود** را بزنید.
@@ -136,7 +138,7 @@
 <details>
 <summary><b>فیلیمو بعد از چند روز از تلویزیون پاک شد.</b></summary>
 
-اگر از روش ۲ (حالت توسعه‌دهنده) استفاده کرده‌اید، زمان حالت توسعه‌دهنده تمام شده است. Developer Mode را دوباره روشن کنید، برنامه را دوباره نصب کنید و از این به بعد زمان را با دکمه‌ی **Extend** تمدید کنید.
+اگر از روش ۱ (حالت توسعه‌دهنده) استفاده کرده‌اید، زمان حالت توسعه‌دهنده تمام شده است. Developer Mode را دوباره روشن کنید، برنامه را دوباره نصب کنید و از این به بعد زمان را با دکمه‌ی **Extend** تمدید کنید.
 </details>
 
 <details>
@@ -154,8 +156,8 @@
 <details>
 <summary><b>نسخه‌ی جدید را چطور نصب کنم؟</b></summary>
 
-- **روش ۱:** در Homebrew Channel روی Filimo بروید و دوباره Install را بزنید.
-- **روش ۲:** فایل `.ipk` جدید را دانلود کنید و مثل قبل با Dev Manager نصب کنید. لازم نیست نسخه‌ی قبلی را حذف کنید.
+- **روش ۱:** فایل `.ipk` جدید را دانلود کنید و مثل قبل با Dev Manager نصب کنید. لازم نیست نسخه‌ی قبلی را حذف کنید.
+- **روش ۲:** در Homebrew Channel روی Filimo بروید و دوباره Install را بزنید.
 </details>
 
 </div>
@@ -180,31 +182,12 @@ Get the latest version from the **[Releases page](https://github.com/hamedafra/f
 
 ### Which installation method is for me?
 
-| Your TV | Recommended method |
+| Your TV | Method |
 |---|---|
-| Has the **Homebrew Channel** app (usually means it's rooted) | [Method 1: Install from the TV](#method-1-install-from-the-tv-with-homebrew-channel) |
-| Not rooted, no Homebrew Channel | [Method 2: Install with a computer](#method-2-install-with-a-computer-non-rooted-tvs) |
+| Not rooted (a regular TV) | [Method 1: Install with a computer](#method-1-install-with-a-computer-non-rooted-tvs) |
+| Rooted, with the **Homebrew Channel** app | [Method 2: Install from the TV](#method-2-install-from-the-tv-with-homebrew-channel-rooted-tvs) |
 
-### Method 1: Install from the TV with Homebrew Channel
-
-The easiest way. No computer needed, and updates come through the same place.
-
-1. Open **Homebrew Channel** on your TV.
-2. Go to the **gear icon (Settings)** at the top.
-3. Choose **Add repository** at the bottom.
-4. Type this address with the remote and press **Add repository**:
-
-   ```
-   https://hamedafra.github.io/filimo-webos/apps.json
-   ```
-
-5. Go back to the Homebrew Channel home screen. **Filimo** is now in the list.
-6. Open **Filimo** and press **Install**.
-7. Done! The Filimo icon appears in your TV's app list.
-
-> 💡 When a new version is released, open Filimo in Homebrew Channel and press **Install** again.
-
-### Method 2: Install with a computer (non-rooted TVs)
+### Method 1: Install with a computer (non-rooted TVs)
 
 This uses LG's official **Developer Mode**. It's a built-in LG feature and does no harm to your TV. Your TV and computer must be on the **same Wi-Fi/router**.
 
@@ -240,6 +223,27 @@ This uses LG's official **Developer Mode**. It's a built-in LG feature and does 
 
 > ⚠️ **Important:** Developer Mode only stays on for a limited time; the remaining time is shown in the Developer Mode app. When it runs out, apps you installed yourself (including Filimo) are removed. Open the Developer Mode app every now and then and press **Extend**.
 
+### Method 2: Install from the TV with Homebrew Channel (rooted TVs)
+
+If your TV is rooted and has the **Homebrew Channel** app, you can install Filimo without a computer. Updates come through the same place.
+
+> ℹ️ Homebrew Channel isn't on LG TVs by default; it gets installed when a TV is rooted. If you don't see it in your TV's app list, use Method 1.
+
+1. Open **Homebrew Channel** on your TV.
+2. Go to the **gear icon (Settings)** at the top.
+3. Choose **Add repository** at the bottom.
+4. Type this address with the remote and press **Add repository**:
+
+   ```
+   https://hamedafra.github.io/filimo-webos/apps.json
+   ```
+
+5. Go back to the Homebrew Channel home screen. **Filimo** is now in the list.
+6. Open **Filimo** and press **Install**.
+7. Done! The Filimo icon appears in your TV's app list.
+
+> 💡 When a new version is released, open Filimo in Homebrew Channel and press **Install** again.
+
 ### First use: signing in to Filimo
 
 1. Open **Filimo** on your TV and choose **Sign in** (ورود).
@@ -266,7 +270,7 @@ No. This is an unofficial personal project, not affiliated with Filimo or LG. Th
 <details>
 <summary><b>Filimo disappeared from my TV after a few days.</b></summary>
 
-If you used Method 2, the Developer Mode time ran out. Turn Developer Mode back on, install the app again, and from now on press **Extend** regularly.
+If you used Method 1, the Developer Mode time ran out. Turn Developer Mode back on, install the app again, and from now on press **Extend** regularly.
 </details>
 
 <details>
@@ -284,8 +288,8 @@ In your TV's app list, hold OK on the Filimo icon and choose remove. Homebrew Ch
 <details>
 <summary><b>How do I update?</b></summary>
 
-- **Method 1:** Open Filimo in Homebrew Channel and press Install again.
-- **Method 2:** Download the new `.ipk` and install it with Dev Manager as before. No need to remove the old version.
+- **Method 1:** Download the new `.ipk` and install it with Dev Manager as before. No need to remove the old version.
+- **Method 2:** Open Filimo in Homebrew Channel and press Install again.
 </details>
 
 ---
